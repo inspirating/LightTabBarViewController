@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07BE900B1A904B56000D2D2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BE900A1A904B56000D2D2A /* main.m */; };
+		07BE900E1A904B56000D2D2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BE900D1A904B56000D2D2A /* AppDelegate.m */; };
+		07BE90161A904B56000D2D2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07BE90151A904B56000D2D2A /* Images.xcassets */; };
+		07BE90191A904B56000D2D2A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07BE90171A904B56000D2D2A /* LaunchScreen.xib */; };
+		07BE90251A904B56000D2D2A /* LightTabBarViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BE90241A904B56000D2D2A /* LightTabBarViewControllerTests.m */; };
+		07BE90311A904D11000D2D2A /* LightTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BE90301A904D11000D2D2A /* LightTabBarViewController.m */; };
+		07BE90341A904E1C000D2D2A /* LightTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BE90331A904E1C000D2D2A /* LightTabBar.m */; };
+		07BE90421A90A790000D2D2A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BE903C1A90A790000D2D2A /* FirstViewController.m */; };
+		07DF5B0C1A90D03700BC21A4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DF5B0B1A90D03700BC21A4 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07BE901F1A904B56000D2D2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07BE8FFD1A904B55000D2D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07BE90041A904B56000D2D2A;
+			remoteInfo = LightTabBarViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07BE90051A904B56000D2D2A /* LightTabBarViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightTabBarViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07BE90091A904B56000D2D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07BE900A1A904B56000D2D2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07BE900C1A904B56000D2D2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07BE900D1A904B56000D2D2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07BE90151A904B56000D2D2A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07BE90181A904B56000D2D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		07BE901E1A904B56000D2D2A /* LightTabBarViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightTabBarViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07BE90231A904B56000D2D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07BE90241A904B56000D2D2A /* LightTabBarViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightTabBarViewControllerTests.m; sourceTree = "<group>"; };
+		07BE902F1A904D11000D2D2A /* LightTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightTabBarViewController.h; sourceTree = "<group>"; };
+		07BE90301A904D11000D2D2A /* LightTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightTabBarViewController.m; sourceTree = "<group>"; };
+		07BE90321A904E1C000D2D2A /* LightTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightTabBar.h; sourceTree = "<group>"; };
+		07BE90331A904E1C000D2D2A /* LightTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightTabBar.m; sourceTree = "<group>"; };
+		07BE903B1A90A790000D2D2A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		07BE903C1A90A790000D2D2A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		07DF5B0A1A90D03700BC21A4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		07DF5B0B1A90D03700BC21A4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07BE90021A904B56000D2D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07BE901B1A904B56000D2D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07BE8FFC1A904B55000D2D2A = {
+			isa = PBXGroup;
+			children = (
+				07BE90071A904B56000D2D2A /* LightTabBarViewController */,
+				07BE90211A904B56000D2D2A /* LightTabBarViewControllerTests */,
+				07BE90061A904B56000D2D2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07BE90061A904B56000D2D2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07BE90051A904B56000D2D2A /* LightTabBarViewController.app */,
+				07BE901E1A904B56000D2D2A /* LightTabBarViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07BE90071A904B56000D2D2A /* LightTabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07BE90381A90A790000D2D2A /* Controllers */,
+				07BE902E1A904BF1000D2D2A /* TabBarViewController */,
+				07BE900C1A904B56000D2D2A /* AppDelegate.h */,
+				07BE900D1A904B56000D2D2A /* AppDelegate.m */,
+				07BE90151A904B56000D2D2A /* Images.xcassets */,
+				07BE90171A904B56000D2D2A /* LaunchScreen.xib */,
+				07BE90081A904B56000D2D2A /* Supporting Files */,
+			);
+			path = LightTabBarViewController;
+			sourceTree = "<group>";
+		};
+		07BE90081A904B56000D2D2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07BE90091A904B56000D2D2A /* Info.plist */,
+				07BE900A1A904B56000D2D2A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07BE90211A904B56000D2D2A /* LightTabBarViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				07BE90241A904B56000D2D2A /* LightTabBarViewControllerTests.m */,
+				07BE90221A904B56000D2D2A /* Supporting Files */,
+			);
+			path = LightTabBarViewControllerTests;
+			sourceTree = "<group>";
+		};
+		07BE90221A904B56000D2D2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07BE90231A904B56000D2D2A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07BE902E1A904BF1000D2D2A /* TabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07BE902F1A904D11000D2D2A /* LightTabBarViewController.h */,
+				07BE90301A904D11000D2D2A /* LightTabBarViewController.m */,
+				07BE90321A904E1C000D2D2A /* LightTabBar.h */,
+				07BE90331A904E1C000D2D2A /* LightTabBar.m */,
+			);
+			path = TabBarViewController;
+			sourceTree = "<group>";
+		};
+		07BE90381A90A790000D2D2A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				07BE903B1A90A790000D2D2A /* FirstViewController.h */,
+				07BE903C1A90A790000D2D2A /* FirstViewController.m */,
+				07DF5B0A1A90D03700BC21A4 /* DetailViewController.h */,
+				07DF5B0B1A90D03700BC21A4 /* DetailViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07BE90041A904B56000D2D2A /* LightTabBarViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07BE90281A904B56000D2D2A /* Build configuration list for PBXNativeTarget "LightTabBarViewController" */;
+			buildPhases = (
+				07BE90011A904B56000D2D2A /* Sources */,
+				07BE90021A904B56000D2D2A /* Frameworks */,
+				07BE90031A904B56000D2D2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightTabBarViewController;
+			productName = LightTabBarViewController;
+			productReference = 07BE90051A904B56000D2D2A /* LightTabBarViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07BE901D1A904B56000D2D2A /* LightTabBarViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07BE902B1A904B56000D2D2A /* Build configuration list for PBXNativeTarget "LightTabBarViewControllerTests" */;
+			buildPhases = (
+				07BE901A1A904B56000D2D2A /* Sources */,
+				07BE901B1A904B56000D2D2A /* Frameworks */,
+				07BE901C1A904B56000D2D2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07BE90201A904B56000D2D2A /* PBXTargetDependency */,
+			);
+			name = LightTabBarViewControllerTests;
+			productName = LightTabBarViewControllerTests;
+			productReference = 07BE901E1A904B56000D2D2A /* LightTabBarViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07BE8FFD1A904B55000D2D2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Duan ";
+				TargetAttributes = {
+					07BE90041A904B56000D2D2A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					07BE901D1A904B56000D2D2A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 07BE90041A904B56000D2D2A;
+					};
+				};
+			};
+			buildConfigurationList = 07BE90001A904B55000D2D2A /* Build configuration list for PBXProject "LightTabBarViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07BE8FFC1A904B55000D2D2A;
+			productRefGroup = 07BE90061A904B56000D2D2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07BE90041A904B56000D2D2A /* LightTabBarViewController */,
+				07BE901D1A904B56000D2D2A /* LightTabBarViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07BE90031A904B56000D2D2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BE90191A904B56000D2D2A /* LaunchScreen.xib in Resources */,
+				07BE90161A904B56000D2D2A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07BE901C1A904B56000D2D2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07BE90011A904B56000D2D2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BE90341A904E1C000D2D2A /* LightTabBar.m in Sources */,
+				07BE90421A90A790000D2D2A /* FirstViewController.m in Sources */,
+				07BE90311A904D11000D2D2A /* LightTabBarViewController.m in Sources */,
+				07BE900E1A904B56000D2D2A /* AppDelegate.m in Sources */,
+				07BE900B1A904B56000D2D2A /* main.m in Sources */,
+				07DF5B0C1A90D03700BC21A4 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07BE901A1A904B56000D2D2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BE90251A904B56000D2D2A /* LightTabBarViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07BE90201A904B56000D2D2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07BE90041A904B56000D2D2A /* LightTabBarViewController */;
+			targetProxy = 07BE901F1A904B56000D2D2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07BE90171A904B56000D2D2A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07BE90181A904B56000D2D2A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07BE90261A904B56000D2D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07BE90271A904B56000D2D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07BE90291A904B56000D2D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LightTabBarViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07BE902A1A904B56000D2D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LightTabBarViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07BE902C1A904B56000D2D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LightTabBarViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightTabBarViewController.app/LightTabBarViewController";
+			};
+			name = Debug;
+		};
+		07BE902D1A904B56000D2D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LightTabBarViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightTabBarViewController.app/LightTabBarViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07BE90001A904B55000D2D2A /* Build configuration list for PBXProject "LightTabBarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07BE90261A904B56000D2D2A /* Debug */,
+				07BE90271A904B56000D2D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07BE90281A904B56000D2D2A /* Build configuration list for PBXNativeTarget "LightTabBarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07BE90291A904B56000D2D2A /* Debug */,
+				07BE902A1A904B56000D2D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07BE902B1A904B56000D2D2A /* Build configuration list for PBXNativeTarget "LightTabBarViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07BE902C1A904B56000D2D2A /* Debug */,
+				07BE902D1A904B56000D2D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07BE8FFD1A904B55000D2D2A /* Project object */;
+}
